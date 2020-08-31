@@ -8,5 +8,6 @@ namespace _24Hour.Models
 {
     public class Comment
     {
+
     }
 }
