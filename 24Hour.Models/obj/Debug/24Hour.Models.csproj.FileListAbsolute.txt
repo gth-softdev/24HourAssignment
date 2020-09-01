@@ -14,3 +14,6 @@ C:\Users\Gary\source\repos\24HoursAssignment\24Hour.Models\obj\Debug\24Hour.Mode
 C:\Users\Gary\source\repos\24HoursAssignment\24Hour.Models\obj\Debug\24Hour.Models.csproj.CopyComplete
 C:\Users\Gary\source\repos\24HoursAssignment\24Hour.Models\obj\Debug\24Hour.Models.dll
 C:\Users\Gary\source\repos\24HoursAssignment\24Hour.Models\obj\Debug\24Hour.Models.pdb
+C:\Users\Gary\source\repos\24HoursAssignment\24Hour.Models\bin\Debug\24Hour.Data.dll
+C:\Users\Gary\source\repos\24HoursAssignment\24Hour.Models\bin\Debug\24Hour.Data.pdb
+C:\Users\Gary\source\repos\24HoursAssignment\24Hour.Models\bin\Debug\24Hour.Data.dll.config

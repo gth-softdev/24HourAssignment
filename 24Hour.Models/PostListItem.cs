@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace _24Hour.Models
 {
-    class PostListItem
+    public class PostListItem
     {
         public int NoteId { get; set; }
         public string Title { get; set; }
