@@ -33,6 +33,7 @@ namespace _24Hour.Data
             return new ApplicationDbContext();
         }
         public DbSet<User> User { get; set; }
+        public DbSet<Post> Posts { get; set; }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder
