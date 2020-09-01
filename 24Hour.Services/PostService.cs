@@ -35,17 +35,17 @@ namespace _24Hour.Services
             }
         }
 
-        public IEnumerable<NoteListItem> GetNotes()
+        public IEnumerable<PostListItem> GetNotes()
         {
             using (var ctx = new ApplicationDbContext())
             {
                 var query =
                     ctx
-                        .Notes
-                        .Where(e => e.OwnerId == _userId)
+                        .Posts
+                        .Where(e => e.Author == _userId)
                         .Select(
                             e =>
-                                new NoteListItem
+                                new PostListItem
                                 {
                                     NoteId = e.NoteId,
                                     Title = e.Title,
