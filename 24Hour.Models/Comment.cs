@@ -12,19 +12,7 @@ namespace _24Hour.Models
     {
         public int Id { get; set; }
         public string Text { get; set; }
-        public User Author
-        {
-            get
-            {
-
-            }
-        }
-        public Post CommentPost
-        {
-            get
-            {
-
-            }
-        }
+        public User Author { get; set; }
+        public Post CommentPost { get; set; }
     }
 }

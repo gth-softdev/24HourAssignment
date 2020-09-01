@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace _24Hour.Services
 {
-    public class UserService
+    public class PostService
     {
+        private readonly Guid _userId;
+
+        public PostService(Guid userId)
+        {
+            _userId = userId;
+        }
+
+
     }
 }

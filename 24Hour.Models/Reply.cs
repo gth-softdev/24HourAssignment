@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace _24Hour.Models
 {
-    public class Reply
+    public class Reply : Comment
     {
+        public Comment ReplyComment { get; set; }
     }
 }
