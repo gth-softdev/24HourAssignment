@@ -15,6 +15,5 @@ namespace _24Hour.Models
         public string Text { get; set; }
         public User Author { get; set; } 
 
-
     }
 }
